@@ -8,61 +8,27 @@ orders, something that I personally find myself struggling with.
 """
 from turtle import * 
 from alphabets import alphabet
+from functions import *
+from playsound import playsound
 
 
+
+#playsound("samurai.mp3")
 def draw_letter(letter: str, alphabet: str):
   """"""
   pensize(4)
   speed(2)
   if alphabet == "hiragana":
     if letter == "a":
-      penup()
-      goto(-60, 40)
-      pendown()
-      forward(60)
-      penup()
-      goto(-30, 60)
-      pendown()
-      right(90)
-      forward(100)
-      left(90)
-      penup()
-      goto(0, 10)
-      pendown()
-      right(90)
-      circle(-50, 90)
-      forward(5)
-      right(90)
-      circle(-40, 200)
+      a_hir_turtle()
     if letter == "i":
-      penup()
-      goto(-50, 30)
-      pendown()
-      setheading(250)
-      forward(20)
-      setheading(250)
-      circle(50, 100)
-      left(45)
-      circle(30, 30)
-      penup()
-      goto(25, 25)
-      setheading(315)
-      pendown()
-      circle(-100, 35)
+      i_hir_turtle()
     if letter == "u":
-      penup()
-      goto(-15, 35)
-      pendown()
-      setheading(330)
-      forward(50)
-      penup()
-      goto(-25, -5)
-      pendown()
-      setheading(5)
-      forward(40)
-      right(60)
-      circle(-40, 100)
-      forward(20)
+      u_hir_turtle()
+    if letter == "e":
+      e_hir_turtle()
+    if letter == "n":
+      n_hir_turtle()
   elif alphabet == "katakana":
     pass
   else:
