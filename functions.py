@@ -72,6 +72,11 @@ def e_hir_turtle():
 
 def o_hir_turtle():
     penup()
+    goto(-30, 15)
+    setheading(10)
+    pendown()
+    forward(35)
+
     
 def ka_hir_turtle():
     penup()
@@ -109,7 +114,7 @@ def ta_hir_turtle():
 def ti_hir_turtle():
     penup()
     
-def tu_hir_turtle():
+def tsu_hir_turtle():
     penup()
     
 def te_hir_turtle():
@@ -204,6 +209,81 @@ def n_hir_turtle():
     forward(20)
     circle(10, 90)
     forward(10)
+
+def ga_hir_turtle():
+    penup()
+
+def gi_hir_turtle():
+    penup()
+
+def gu_hir_turtle():
+    penup()
+
+def ge_hir_turtle():
+    penup()
+
+def go_hir_turtle():
+    penup()
+
+def za_hir_turtle():
+    penup()
+
+def ji_hir_turtle():
+    penup()
+
+def zu_hir_turtle():
+    penup()
+
+def ze_hir_turtle():
+    penup()
+
+def zo_hir_turtle():
+    penup()
+
+def da_hir_turtle():
+    penup()
+
+def dzi_hir_turtle():
+    penup()
+
+def dzu_hir_turtle():
+    penup()
+
+def de_hir_turtle():
+    penup()
+
+def do_hir_turtle():
+    penup()
+
+def ba_hir_turtle():
+    penup()
+
+def bi_hir_turtle():
+    penup()
+
+def bu_hir_turtle():
+    penup()
+
+def be_hir_turtle():
+    penup()
+
+def bo_hir_turtle():
+    penup()
+
+def pa_hir_turtle():
+    penup()
+
+def pi_hir_turtle():
+    penup()
+
+def pu_hir_turtle():
+    penup()
+
+def pe_hir_turtle():
+    penup()
+
+def po_hir_turtle():
+    penup()
     
 def a_kat_turtle():
   penup()
@@ -256,7 +336,7 @@ def ta_kat_turtle():
 def ti_kat_turtle():
     penup()
     
-def tu_kat_turtle():
+def tsu_kat_turtle():
     penup()
     
 def te_kat_turtle():
@@ -342,3 +422,79 @@ def wo_kat_turtle():
     
 def n_kat_turtle():
     penup()
+
+def ga_kat_turtle():
+    penup()
+
+def gi_kat_turtle():
+    penup()
+
+def gu_kat_turtle():
+    penup()
+
+def ge_kat_turtle():
+    penup()
+
+def go_kat_turtle():
+    penup()
+
+def za_kat_turtle():
+    penup()
+
+def ji_kat_turtle():
+    penup()
+
+def zu_kat_turtle():
+    penup()
+
+def ze_kat_turtle():
+    penup()
+
+def zo_kat_turtle():
+    penup()
+
+def da_kat_turtle():
+    penup()
+
+def dzi_kat_turtle():
+    penup()
+
+def dzu_kat_turtle():
+    penup()
+
+def de_kat_turtle():
+    penup()
+
+def do_kat_turtle():
+    penup()
+
+def ba_kat_turtle():
+    penup()
+
+def bi_kat_turtle():
+    penup()
+
+def bu_kat_turtle():
+    penup()
+
+def be_kat_turtle():
+    penup()
+
+def bo_kat_turtle():
+    penup()
+
+def pa_kat_turtle():
+    penup()
+
+def pi_kat_turtle():
+    penup()
+
+def pu_kat_turtle():
+    penup()
+
+def pe_kat_turtle():
+    penup()
+
+def po_kat_turtle():
+    penup()
+    

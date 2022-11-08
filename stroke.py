@@ -8,6 +8,7 @@ orders, something that I personally find myself struggling with.
 """
 from turtle import * 
 from alphabets import alphabet
+#from alphabets import kana_functions
 from functions import *
 from playsound import playsound
 
@@ -19,6 +20,7 @@ def draw_letter(letter: str, alphabet: str):
   pensize(4)
   speed(2)
   if alphabet == "hiragana":
+    #kana_functions[letter[0]]
     if letter == "a":
       a_hir_turtle()
     if letter == "i":
@@ -27,8 +29,11 @@ def draw_letter(letter: str, alphabet: str):
       u_hir_turtle()
     if letter == "e":
       e_hir_turtle()
+    if letter == "o":
+      o_hir_turtle
     if letter == "n":
       n_hir_turtle()
+    
   elif alphabet == "katakana":
     pass
   else:
